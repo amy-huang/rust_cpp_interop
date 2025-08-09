@@ -1,0 +1,10 @@
+[package]
+name = "mypackage"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "mylib"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
